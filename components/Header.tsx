@@ -10,7 +10,7 @@ type HeaderTypes = {
 
 export default function Header({signedIn} : HeaderTypes) {
     return (
-      <header className="flex max-w-5xl mx-auto justify-between py-6 px-12 items-center">
+      <header className="flex max-w-7xl mx-auto justify-between sm:py-6 sm:px-12 items-center">
             <div className="flex items-center gap-3">
                 <Image src="/sslogo.jpg" alt="logo" width={64} height={64} className="rounded-full"/>
                 <p className="font-brico text-stone-100 text-xl font-bold">Success Ladder</p>
